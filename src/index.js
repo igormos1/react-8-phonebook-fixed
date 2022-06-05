@@ -12,7 +12,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}> 
       <PersistGate loading={null} persistor={ persistor }>
-        <BrowserRouter>            
+        <BrowserRouter basename='react-8-phonebook-fixed'>            
           <App />  
         </BrowserRouter>
       </PersistGate>

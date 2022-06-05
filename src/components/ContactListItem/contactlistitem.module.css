@@ -1,0 +1,26 @@
+.listButton {
+  display: block;
+  /* margin: 0 auto; */
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(130, 130, 130, 0.7);
+  font-size: 14px;
+  line-height: 1.3em;
+  cursor: pointer;
+}
+
+/* .listButton:focus, .listButton:hover {
+  outline: none;
+  background-color: rgb(223, 223, 223);
+  box-shadow: 0 5px 5px #777;
+} */
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+}
+
+.listItem:not(:first-child) {
+  margin-top: 10px;
+}

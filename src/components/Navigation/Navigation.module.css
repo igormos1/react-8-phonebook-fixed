@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+    margin-bottom: 16px;  
+    box-shadow: 0px 4px 4px rgb(5, 5, 5);
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+
+.activeLink {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #268afd
+}

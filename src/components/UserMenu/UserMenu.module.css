@@ -1,0 +1,33 @@
+.button {
+    display: block;
+    /* margin: 0 auto; */
+    padding: 5px 10px;
+    border-radius: 4px;
+    /* border: 1px solid rgba(130, 130, 130, 0.7); */
+    font-size: 14px;
+    line-height: 1.3em;
+    cursor: pointer;
+}
+
+/* .button:focus,
+.button:hover {
+    outline: none;
+    background-color: rgb(223, 223, 223);
+    box-shadow: 0 5px 5px #777;
+} */
+
+.userMenu {
+    display: flex;
+    margin-right: 10px;
+}
+
+.userName {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 6px;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    line-height:20px;
+}
